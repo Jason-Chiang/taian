@@ -1,0 +1,11 @@
+home:
+    path: /
+    defaults: {_controller: AppBundle:Default:booking}
+
+new:
+    path: /BookOrder
+    defaults: {_controller: AppBundle:Default:booking}
+
+resoult:
+    path: /BookResoult
+    defaults: {_controller: AppBundle:Default:resoult}

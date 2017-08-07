@@ -1,0 +1,9 @@
+AppBundle\Entity\Customer:
+    type: entity
+    table: customer
+    fields:
+        chineseName:
+            type: string
+            length: 100
+        orderDate:
+            type: date
